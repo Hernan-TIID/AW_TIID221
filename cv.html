@@ -1,52 +1,87 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV Hernan</title>
 </head>
-<body>
-    <header class = "encabezado" style="background-color: green; display: flex ;">
+<body style="margin: 0; padding: 0; color: black;">
+
+    <header class="encabezado" style="background-color: #1b4332; display: flex; align-items: center; color: white;">
         <div class="foto">
-            <img src="IMG/imgCV.png" alt="Foto perfil CV" style= "width: 200px; border-radius: 50%; padding: 20px 40px 20px;">
+            <img src="IMG/imgCV.png" alt="Foto perfil CV" style="width: 200px; border-radius: 50%; padding: 20px 40px 20px;">
         </div>
-        <div class="informacion-personal">
-            <h1>Hernan Mendoza Gutierrez</h1>
-            <h2>Ing. en Tecnologias de la Informacion e Innovacion Digital</h2>
+        <div class="informacion-personal" style="color: white;">
+            <h1 style="font-size: 40px; margin: 0; text-transform: uppercase;">Hernan<br>Mendoza Gutierrez</h1>
+            <h2 style="font-size: 16px; margin-top: 10px; letter-spacing: 2px; text-transform: uppercase;">Ing. en Tecnologias de la Informacion e Innovacion Digital</h2>
         </div>
     </header>
+
     <main class="contenido" style="display: grid; grid-template-columns: 35% 65%;">
-        <div class="columnaIzq" style="background-color: green;">
+        
+        <!-- Columna Izquierda (Beige Suave) -->
+        <div class="columnaIzq" style="background-color: #e2e0d8; color: black; padding: 30px; box-sizing: border-box;">
+            
             <h3>Contacto</h3>
-             <section>
-                <ul>
+            <section>
+                <ul style="list-style: none; padding-left: 0; line-height: 2;">
                     <li>(442) 252 4531</li>
                     <li>125053767@upq.edu.mx</li>
                     <li>www.Twitch.tv/HernanR5</li>
                 </ul>
             </section>
-            <h3>Habilidades</h3>
-                <ul>
-                    <li>Liderazgo</li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            <section>
-            <h3>Educacion</h3>
-                <ul>
-                    <li>Ing en TIID</li>
-                    <p>Universidad Politecnica de Queretaro</p>
-                    
 
+            <h3>Habilidades</h3>
+            <ul>
+                <li>Liderazgo</li>
+                <li>Comunicación asertiva</li>
+                <li>Gestión de activos</li>
+                <li>Resolución de problemas</li>
+                <li>Elaboración de reportes</li>
+                <li>Trabajo en equipo</li>
+            </ul>
+
+            <section>
+                <h3>Educacion</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li><strong>• Ing en TIID</strong></li>
+                    <p style="margin: 5px 0 0 15px;">Universidad Politecnica de Queretaro</p>
                 </ul>
             </section>
-            
+
         </div>
-        <div class="columnaDer" style="background-color: lightgreen;">
-            159
+
+        <!-- Columna Derecha (Blanco Cálido) -->
+        <div class="columnaDer" style="background-color: #fdfbf7; color: black; padding: 30px; box-sizing: border-box; text-align: justify;">
+            
+            <section>
+                <h3>Acerca de Mí</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla facilisi morbi tempus iaculis urna id volutpat lacus.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </section>
+
+            <br>
+
+            <section>
+                <h3>Experiencia Laboral</h3>
+                
+                <ul style="list-style: none; padding-left: 0;">
+                    <li><strong>• ÁREA DE CONTABILIDAD</strong></li>
+                    <p style="margin: 2px 0 8px 15px;">Empresa Borcelle<br>2010-2012</p>
+                    <p style="margin-left: 15px;">Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                    <br>
+
+                    <li><strong>• ÁREA DE CONTABILIDAD</strong></li>
+                    <p style="margin: 2px 0 8px 15px;">Empresa Borcelle<br>2012-2014</p>
+                    <p style="margin-left: 15px;">Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                    <br>
+
+                    <li><strong>• ÁREA DE CONTABILIDAD</strong></li>
+                    <p style="margin: 2px 0 8px 15px;">Empresa Borcelle<br>2014-2016</p>
+                    <p style="margin-left: 15px;">Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                </ul>
+            </section>
+
         </div>
 
     </main>
