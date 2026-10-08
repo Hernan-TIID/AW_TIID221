@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            color: #000000;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .newspaper-container {
+            max-width: 1920;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border: 1px solid #000;
+        }
+
+        .newspaper-header {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            align-items: center;
+            border-bottom: 3px double #000;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .izquierda, .derecha {
+            line-height: 1.4;
+        }
+
+        .derecha {
+            text-align: right;
+        }
+
+        .centro {
+            text-align: center;
+        }
+
+        .centro h1 {
+            font-family: "Georgia", serif;
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        .centro p {
+            margin: 5px 0 0;
+            font-size: 1rem;
+        }
+
+        .contenido {
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 25px;
+        }
+
+        .columna {
+            padding: 0 10px;
+        }
+
+        .columna:not(:last-child) {
+            border-right: 1px solid #333;
+        }
+
+        .article-title {
+            font-weight: bold;
+            margin-top: 0;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            padding-bottom: 5px;
+        }
+
+        .article-subtitle {
+            margin-bottom: 10px;
+            color: #000000;
+        }
+
+        .article-body {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        .article-body p {
+            margin-top: 0;
+            text-indent: 15px; 
+        }
+
+        .newspaper-footer {
+            text-align: center;
+            margin-top: 30px;
+            border-top: 1px solid #000;
+            padding-top: 10px;
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="encabezado">
+        
+        <header class="encabezado">
+            <div class="izquierda">
+                <img src="20px" alt="mundo">
+                EL MUNDO EN TUS MANOS
+            </div>
+
+            <div class="centro">
+                <h1>EL NOTICIERO</h1>
+                <p>"--- informacion - actualidad - tu diario ---"</p>
+            </div>
+
+            <div class="derecha">
+                dd/mm/aa/
+                Año / No.216898
+            </div>
+        </header>
+
+        <main class="contenido">
+            
+            <section class="columna">
+                <h2 class="Titulo articulo">Ultimas Noticias</h2>
+                <div class="article-subtitle">
+                     <section>
+                <h3>Experiencia Laboral</h3>
+                
+                <ul style="list-style: none; padding-left: 0;">
+                    
+
+                    <p style="margin: 2px 0 8px 15px;">Empresa Borcelle<br>2010-2012</p>
+                    <p style="margin-left: 15px;">Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                    <br>
+
+                    <li><strong>• ÁREA DE CONTABILIDAD</strong></li>
+                    <p style="margin: 2px 0 8px 15px;">Empresa Borcelle<br>2012-2014</p>
+                    <p style="margin-left: 15px;">Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                    <br>
+
+                    <li><strong>• ÁREA DE CONTABILIDAD</strong></li>
+                    <p style="margin: 2px 0 8px 15px;">Empresa Borcelle<br>2014-2016</p>
+                    <p style="margin-left: 15px;">Eu augue ut lectus arcu bibendum at varius vel pharetra vel turpis nunc eget lorem dolor sed viverra ipsum nunc.</p>
+                </ul>
+            </section>
+                </div>
+            </section>
+
+            
+            <section class="columna">
+                <h2 class="article-title">Ultimas Noticias</h2>
+                <div class="article-subtitle">Ultimas Noticias</div>
+                <div class="article-body">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur magni eos iure harum voluptate neque perferendis odio sed, voluptatem, deserunt, accusantium sint at commodi illo corporis accusamus molestiae repellendus tempore.</p>
+                    <p>Ultimas Noticias</p>
+                </div>
+            </section>
+
+            <!-- Parte 3 -->
+            <section class="columna">
+                <h2 class="article-title">Ciencia y Salud</h2>
+                <div class="article-subtitle">Nuevos hallazgos sobre los beneficios de las caminatas matutinas en la salud cardiovascular.</div>
+                <div class="article-body">
+                    <p>Un estudio publicado recientemente revela que dedicar tan solo treinta minutos al día a caminar a paso ligero reduce considerablemente los niveles de estrés y mejora la presión arterial a largo plazo.</p>
+                    <p>Los médicos recomiendan a la población integrar esta práctica sencilla en sus rutinas diarias, especialmente en entornos urbanos donde el sedentarismo suele ser un problema persistente.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Pie de página -->
+        <footer class="newspaper-footer">
+            JUNTOS HACEMOS LA DIFERENCIA
+        </footer>
+
+    </div>
+
+</body>
+</html>
